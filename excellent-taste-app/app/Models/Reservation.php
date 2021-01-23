@@ -14,4 +14,16 @@ class Reservation extends Model
     protected $guarded = [];
 
 
+    public function order(){
+        return $this->hasOne(Order::class);
+    }
+
+    public function table(){
+        return $this->belongsTo(Table::class);
+    }
+
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
+
 }

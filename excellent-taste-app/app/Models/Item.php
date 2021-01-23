@@ -5,15 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Order extends Model
+class Item extends Model
 {
     use HasFactory;
 
-    public function reservation(){
-        return $this->belongsTo(Reservation::class);
-    }
+
 
     public function orderitems(){
         return $this->hasMany(Orderitem::class);
+    }
+
+    public function itemsubcategory(){
+        return $this->belongsTo(ItemSubCategory::class);
     }
 }
