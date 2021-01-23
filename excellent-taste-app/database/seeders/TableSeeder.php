@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Table;
 use Illuminate\Database\Seeder;
 
 class TableSeeder extends Seeder
@@ -13,6 +14,12 @@ class TableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        Table::create(['capacity' => '5']);
+        Table::create(['capacity' => '7']);
+        Table::create(['capacity' => '5']);
+        Table::create(['capacity' => '3']);
+        Table::create(['capacity' => '3']);
+        Table::create(['capacity' => '7']);
+
     }
 }

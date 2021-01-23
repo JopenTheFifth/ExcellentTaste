@@ -17,7 +17,9 @@ class CreateItemsTable extends Migration
             $table->id();
             $table->string('item_name');
             $table->decimal('price', 4, 2);
-            $table->foreignId('sub_category_shorthand')->constrained();
+            $table->string('sub_category_shorthand');
+            $table->foreign('sub_category_shorthand')->references('sub_category_shorthand')->on('item_sub_categories');
+
         });
     }
 

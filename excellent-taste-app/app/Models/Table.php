@@ -9,6 +9,8 @@ class Table extends Model
 {
     use HasFactory;
 
+    public $timestamps = false;
+
 
     public function reservations(){
         return $this->hasMany(Table::class);

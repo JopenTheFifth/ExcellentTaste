@@ -9,6 +9,10 @@ class item_categories extends Model
 {
     use HasFactory;
 
+    public $timestamps = false;
+
+    protected $keyType = 'string';
+
     public function itemsubcategories(){
         return $this->hasMany(ItemSubCategory::class);
     }
