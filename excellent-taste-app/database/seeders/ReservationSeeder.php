@@ -14,6 +14,6 @@ class ReservationSeeder extends Seeder
      */
     public function run()
     {
-        Reservation::create(['from' => now(), 'to' => now()->addHours(2), 'user_id' => 1, 'table_number' => 2]);
+        Reservation::create(['from' => now(), 'to' => now()->addHours(2), 'user_id' => 1, 'table_id' => 2]);
     }
 }

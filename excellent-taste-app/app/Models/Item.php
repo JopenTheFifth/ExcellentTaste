@@ -16,6 +16,6 @@ class Item extends Model
     }
 
     public function itemsubcategory(){
-        return $this->belongsTo(ItemSubCategory::class);
+        return $this->belongsTo(ItemSubCategory::class, 'sub_category_shorthand');
     }
 }

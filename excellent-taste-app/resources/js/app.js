@@ -4,9 +4,15 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
 
+require('./bootstrap');
 window.Vue = require('vue').default;
+
+import VueRouter from "vue-router";
+import routes from './routes'
+
+Vue.use(VueRouter);
+
 
 /**
  * The following block of code may be used to automatically register your
@@ -29,4 +35,5 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
+    router: VueRouter(routes)
 });

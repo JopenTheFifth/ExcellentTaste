@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BeverageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::get('/dashboard/{any}', function(){
+    return view('welcome');
+})->where('any', '.*');
+
+
+Route::get('/menu/beverages', [BeverageController::class, 'index'])->name('menu.beverages');
+Route::get('/menu/dishes', [\App\Http\Controllers\DishController::class, 'index'])->name('menu.dishes');

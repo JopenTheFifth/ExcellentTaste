@@ -12,7 +12,7 @@ class Table extends Model
     public $timestamps = false;
 
 
-    public function reservations(){
-        return $this->hasMany(Table::class);
+    public function reservation(){
+        return $this->hasMany(Reservation::class);
     }
 }

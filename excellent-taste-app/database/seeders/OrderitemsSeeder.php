@@ -22,21 +22,21 @@ class OrderitemsSeeder extends Seeder
         ]);
 
         Orderitem::create([
-            'time_of_order' => now()->addMinutes(33),
+            'time_of_order' => now()->addMinutes(52),
             'qty' => 2,
             'order_id' => 1,
             'item_id' => 1
         ]);
 
         Orderitem::create([
-            'time_of_order' => now()->addMinutes(33),
+            'time_of_order' => now()->addMinutes(13),
             'qty' => 5,
             'order_id' => 1,
             'item_id' => 2
         ]);
 
         Orderitem::create([
-            'time_of_order' => now()->addMinutes(33),
+            'time_of_order' => now()->addMinutes(26),
             'qty' => 1,
             'order_id' => 1,
             'item_id' => 3

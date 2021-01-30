@@ -50,7 +50,7 @@ class User extends Authenticatable
         return $this->belongsTo(Userrole::class);
     }
 
-    public function reservations(){
+    public function reservation(){
         return $this->hasMany(Reservation::class);
     }
 }
