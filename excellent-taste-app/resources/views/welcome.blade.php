@@ -10,6 +10,7 @@
 {{--            <router-link to="/lodges">Lodges</router-link>--}}
         </div>
     </div>
+<p>Test</p>
     <router-view></router-view>
 
 @endsection

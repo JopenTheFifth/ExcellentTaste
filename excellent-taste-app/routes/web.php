@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BeverageController;
+use App\Http\Controllers\DishController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,16 +15,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//disable the following auth routes.
+Auth::routes(['register' => false], ['reset' => false], ['confirm' => false], ['verify' => false]);
 
-Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
+
+
+Route::get('/dashboard' , function(){
+    return view('welcome');
+})->name('dashboard')->middleware('auth');
+
+
 Route::get('/dashboard/{any}', function(){
     return view('welcome');
-})->where('any', '.*');
+})->where('any', '.*')->middleware('auth');
+
+
 
 
 Route::get('/menu/beverages', [BeverageController::class, 'index'])->name('menu.beverages');
-Route::get('/menu/dishes', [\App\Http\Controllers\DishController::class, 'index'])->name('menu.dishes');
+Route::get('/menu/dishes', [DishController::class, 'index'])->name('menu.dishes');
+

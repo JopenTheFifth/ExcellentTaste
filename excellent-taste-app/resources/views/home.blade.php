@@ -20,9 +20,24 @@
        padding: 8rem;
 
     }
+    #coffeeSection{
+        background-image: url("{{asset('/images/front-page/coffee_img.jpg')}}");
+        height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #coffeeTextInfo{
+        position: absolute;
+        top: 25%;
+        left: 60%;
+    }
     .content-body-wrapper{
         display: flex;
         flex-flow: row nowrap;
+        padding-bottom: 8rem;
+        justify-content: center;
     }
     .bodyImg{
         height: 469px;
@@ -49,6 +64,20 @@
         font-size: 0.8rem;
         padding-top: 2.2rem;
     }
+    .content-body-btn{
+        border: 1px solid #2B2D42 !important;
+        text-transform: uppercase !important;
+        border-radius: 0 !important;
+        color: #2B2D42 !important;
+        position: relative;
+        left: 12.5%;
+        margin-top: 2rem;
+    }
+    .content-body-btn:hover{
+        color: #F8961E !important;
+        border: 1px solid #F8961E !important;
+
+    }
 
 
 </style>
@@ -72,16 +101,36 @@
                 <h3 class="content-body-subtitle">Always expect</h3>
                 <h2 class="content-body-title">GREAT TASTE, GOOD TIMES</h2>
                 <p class="content-body-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At </p>
+                    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                </p>
+                <button class="btn content-body-btn">
+                    See our fresh ingredients
+                </button>
             </div>
         </div>
 
-
-
         <div class="content-body-wrapper">
+            <div class="content-body-wrapper">
+                <div class="content-body-info">
+                    <h3 class="content-body-subtitle">Local Craft</h3>
+                    <h2 class="content-body-title">Barley & hops</h2>
+                    <p class="content-body-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                    </p>
+                    <button class="btn content-body-btn">
+                        See our list of beers
+                    </button>
+                </div>
 
+                <img class="bodyImg" src="{{asset('/images/front-page/beer_img_body_content.jpg')}}">
+            </div>
         </div>
     </section>
 
-
+    <section id="coffeeSection">
+        <div id="coffeeTextInfo">
+            <h3 class="content-body-subtitle">Only the best</h3>
+            <h2 class="content-body-title" style="color: #EDF2F4 !important;">Coffee & sides</h2>
+        </div>
+    </section>
 @endsection
