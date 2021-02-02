@@ -1,12 +1,19 @@
 import ExampleComponent from "./components/ExampleComponent";
 
-export default{
-
+export default {
     mode: 'history',
     linkActiveClass: 'font-weight-bold',
     routes: [
         {
-            path: '/testRoute',
+            path: '/dashboard/testRoute',
+            component: ExampleComponent
+        },
+        {
+            path: '/dashboard/reservations',
+            component: ExampleComponent
+        },
+        {
+            path: '/dashboard/orders',
             component: ExampleComponent
         }
     ]

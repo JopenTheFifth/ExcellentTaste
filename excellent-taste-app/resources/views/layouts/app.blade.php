@@ -26,7 +26,6 @@
 <body>
 
 <div id="app">
-
     <div class="sidebar">
         <div id="userInfoSection">
             Welcome back {{\Illuminate\Support\Facades\Auth::user()->name}}
@@ -35,10 +34,10 @@
 
         </div>
 
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+        <a><router-link class="" to="/dashboard/reservations" exact>Reservations</router-link></a>
+        <a><router-link to="/dashboard/orders">Orders</router-link></a>
+
+
     </div>
 
 

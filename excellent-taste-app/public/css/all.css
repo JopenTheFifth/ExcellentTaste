@@ -89,10 +89,6 @@ hr{
     margin: auto;
     width: 80%;
 }
-
-
-
-
 .sidebar{
     margin: 0;
     padding: 0;
@@ -104,7 +100,6 @@ hr{
     overflow: auto;
 
 }
-
 .sidebar a {
     display: block;
     color: #EDF2F4;
@@ -112,24 +107,16 @@ hr{
     text-decoration: none;
 }
 
-.sidebar a.active{
-    background-color: #4CAF50;
-    color: white;
-}
-.sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-
 div.content{
     margin-left: 250px;
     padding: 1px 16px;
 }
 
-
-
-
-
+.sidebar a.router-link-active,
+.sidebar a.router-link-exact-active {
+    background-color: #4CAF50;
+    color: white;
+}
 
 
 @media screen and (max-width: 700px) {

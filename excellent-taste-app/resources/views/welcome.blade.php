@@ -9,9 +9,6 @@
 
 @section('content')
 
-    <div>
-        <p>Welcome dawg</p>
-    </div>
 
     <router-view></router-view>
 

@@ -1909,7 +1909,7 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 
 var app = new Vue({
   el: '#app',
-  router: (0,vue_router__WEBPACK_IMPORTED_MODULE_1__.default)(_routes__WEBPACK_IMPORTED_MODULE_0__.default)
+  router: new vue_router__WEBPACK_IMPORTED_MODULE_1__.default(_routes__WEBPACK_IMPORTED_MODULE_0__.default)
 });
 
 /***/ }),
@@ -1975,7 +1975,13 @@ __webpack_require__.r(__webpack_exports__);
   mode: 'history',
   linkActiveClass: 'font-weight-bold',
   routes: [{
-    path: '/testRoute',
+    path: '/dashboard/testRoute',
+    component: _components_ExampleComponent__WEBPACK_IMPORTED_MODULE_0__.default
+  }, {
+    path: '/dashboard/reservations',
+    component: _components_ExampleComponent__WEBPACK_IMPORTED_MODULE_0__.default
+  }, {
+    path: '/dashboard/orders',
     component: _components_ExampleComponent__WEBPACK_IMPORTED_MODULE_0__.default
   }]
 });
