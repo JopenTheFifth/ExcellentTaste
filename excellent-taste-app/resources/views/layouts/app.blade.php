@@ -24,8 +24,27 @@
 
 </head>
 <body>
+
 <div id="app">
-    @yield('content')
+
+    <div class="sidebar">
+        <div id="userInfoSection">
+            Welcome back {{\Illuminate\Support\Facades\Auth::user()->name}}
+            <img class="mx-auto" src="{{asset('/images/dashboard/profile_pic.jpg')}}">
+            <hr />
+
+        </div>
+
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+
+
+    <div class="content">
+        @yield('content')
+    </div>
 </div>
 </body>
 </html>

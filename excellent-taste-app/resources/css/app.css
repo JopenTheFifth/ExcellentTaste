@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body, html{
+body, html, #app{
     height: 100%;
 }
 
@@ -33,6 +33,10 @@ body, html{
 
 
 
+
+
+
+
 @media (min-width: 576px) {
 
 }
@@ -53,4 +57,95 @@ body, html{
 
 @media (min-width: 1200px) {
 
+}
+
+
+
+
+
+
+
+/*FOR NAVIGATION BAR IN DASHBOARD*/
+
+#userInfoSection{
+    text-transform: uppercase;
+    text-weight: bold;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#userInfoSection img{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+hr{
+    background-color: white;
+    height: 1px;
+    margin: auto;
+    width: 80%;
+}
+
+
+
+
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #4A4E69;
+    color: #EDF2F4;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+
+}
+
+.sidebar a {
+    display: block;
+    color: #EDF2F4;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+div.content{
+    margin-left: 250px;
+    padding: 1px 16px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+    #userInfoSection{Display: none;}
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
 }
