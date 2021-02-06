@@ -1,20 +1,22 @@
-import ExampleComponent from "./components/ExampleComponent";
+import ReservationComponent from "./components/ReservationComponent";
+import OrderComponent from "./components/OrderComponent";
+import NewReservationComponent from "./components/NewReservationComponent";
 
 export default {
     mode: 'history',
     linkActiveClass: 'font-weight-bold',
     routes: [
         {
-            path: '/dashboard/testRoute',
-            component: ExampleComponent
+            path: '/dashboard/reservations',
+            component: ReservationComponent,
         },
         {
-            path: '/dashboard/reservations',
-            component: ExampleComponent
+            path: '/dashboard/reservation/new',
+            component: NewReservationComponent,
         },
         {
             path: '/dashboard/orders',
-            component: ExampleComponent
-        }
+            component: OrderComponent
+        },
     ]
 }

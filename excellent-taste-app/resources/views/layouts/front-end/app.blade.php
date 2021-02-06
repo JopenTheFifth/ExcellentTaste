@@ -48,7 +48,7 @@
                 @guest
                     @else
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Dashboard</a>
+                        <a href="{{route('dashboard')}}" class="nav-link">Dashboard</a>
                     </li>
                     <li class="dropdown nav-item">
                         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">

@@ -21,22 +21,22 @@
     <link href="{{ asset('css/all.css') }}" rel="stylesheet">
 
 
-
 </head>
 <body>
 
 <div id="app">
     <div class="sidebar">
+
         <div id="userInfoSection">
             Welcome back {{\Illuminate\Support\Facades\Auth::user()->name}}
             <img class="mx-auto" src="{{asset('/images/dashboard/profile_pic.jpg')}}">
             <hr />
-
         </div>
 
-        <a><router-link class="" to="/dashboard/reservations" exact>Reservations</router-link></a>
-        <a><router-link to="/dashboard/orders">Orders</router-link></a>
-
+        <div id="dashboard-main-links">
+            <router-link class="" to="/dashboard/reservations" exact>Reservations</router-link>
+            <router-link to="/dashboard/orders">Orders</router-link>
+        </div>
 
     </div>
 
@@ -45,5 +45,6 @@
         @yield('content')
     </div>
 </div>
+
 </body>
 </html>

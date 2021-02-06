@@ -7,7 +7,7 @@ body, html, #app{
 }
 
 *{
-    font-family: Verdana, Montserrat !important;
+    font-family: Verdana, Montserrat;
 }
 
 .navbar{
@@ -30,9 +30,6 @@ body, html, #app{
 .custom-toggler.navbar-toggler {
     border-color: rgb(255,102,203);
 }
-
-
-
 
 
 
@@ -70,8 +67,6 @@ body, html, #app{
 #userInfoSection{
     text-transform: uppercase;
     text-weight: bold;
-    padding-top: 6rem;
-    padding-bottom: 10rem;
     text-align: center;
     justify-content: center;
 }
@@ -91,13 +86,15 @@ hr{
 }
 .sidebar{
     margin: 0;
-    padding: 0;
+    padding: 1.5rem;
     width: 250px;
     background-color: #4A4E69;
     color: #EDF2F4;
     position: fixed;
     height: 100%;
     overflow: auto;
+
+
 
 }
 .sidebar a {
@@ -112,9 +109,31 @@ div.content{
     padding: 1px 16px;
 }
 
+.dashboard-nav-icon{
+
+}
+.dashboard-nav-link{
+
+}
+.dashboard-nav-span{
+    font-size: 1rem;
+}
+
+#dashboard-main-links{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#dashboard-bottom-links{
+float: bottom;
+}
+
+
+
+
+
 .sidebar a.router-link-active,
 .sidebar a.router-link-exact-active {
-    background-color: #4CAF50;
+    background-color: #404256;
     color: white;
 }
 
