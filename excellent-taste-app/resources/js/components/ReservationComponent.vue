@@ -27,16 +27,29 @@
 
 <style>
     .wrapper{
-
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
     .titleBar{
         background-color: #4A4E69;
         color: white;
         padding: 1rem;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
     }
-
+    label{
+        font-weight: bold;
+    }
     form{
         color: #2B2D42;
-        padding: 1rem;
+        padding: 2rem;
+    }
+    .Title{
+        text-align: center;
+        line-height: 34.5px;
+    }
+    .body{
+        background-color: white;
     }
 </style>
