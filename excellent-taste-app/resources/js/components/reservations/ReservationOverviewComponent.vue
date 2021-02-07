@@ -7,7 +7,9 @@
 
          <div>
              <button class="btn btn-danger">Delete</button>
-             <button class="btn btn-success">New reservation</button>
+             <button @click="$router.push('/dashboard/reservation/new')" class="btn btn-success">New reservation</button>
+
+
          </div>
 
      </div>

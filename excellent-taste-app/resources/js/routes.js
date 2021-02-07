@@ -1,6 +1,6 @@
-import ReservationComponent from "./components/ReservationComponent";
-import OrderComponent from "./components/OrderComponent";
-import NewReservationComponent from "./components/NewReservationComponent";
+import ReservationComponent from "./components/reservations/ReservationComponent";
+import OrderComponent from "./components/orders/OrderComponent";
+import NewReservationComponent from "./components/reservations/NewReservationComponent";
 
 export default {
     mode: 'history',

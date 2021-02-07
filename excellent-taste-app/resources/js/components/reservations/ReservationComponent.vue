@@ -38,7 +38,7 @@
         flex-flow: row nowrap;
         justify-content: space-between;
     }
-    label{
+    label, .Title{
         font-weight: bold;
     }
     form{

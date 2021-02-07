@@ -25,9 +25,8 @@ Vue.use(VueRouter);
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('reservation-filter-component', require('./components/ReservationFilterComponent').default);
-Vue.component('reservation-overview-component', require('./components/ReservationOverviewComponent').default);
+Vue.component('reservation-filter-component', require('./components/reservations/ReservationFilterComponent').default);
+Vue.component('reservation-overview-component', require('./components/reservations/ReservationOverviewComponent').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
