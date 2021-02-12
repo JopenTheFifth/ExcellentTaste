@@ -34,18 +34,28 @@
                             <input type="date" class="form-control" id="Date">
                         </div>
 
-                        <div class="form-group">
-                            <label for="from">From</label>
-                            <input type="time" class="form-control" id="from">
+                        <div class="row">
+                            <div class="form-group col-auto">
+                                <label for="from">From</label>
+                                <input type="time" class="form-control" id="from">
+                            </div>
 
-                            <label for="to">To</label>
-                            <input type="time" class="form-control" id="to">
+                            <div class="form-group col-auto">
+                                <label for="to">To</label>
+                                <input type="time" class="form-control" id="to">
+                            </div>
+
+                            <div class="form-group">
+                                <button id="checkBtn" class="btn btn-warning">Check</button>
+                            </div>
+
                         </div>
 
                         <div class="form-group">
                             <label for="name">Table</label>
                             <input type="text" value="3" readonly id="Table" class="form-control">
                         </div>
+
                     </form>
                 </div>
 
@@ -67,3 +77,9 @@
         }
     }
 </script>
+
+<style scoped>
+
+
+
+</style>

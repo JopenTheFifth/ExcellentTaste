@@ -1,9 +1,9 @@
 <template>
-    <div class="wrapper container">
+    <div class="wrapper">
         <div class="titleBar">
             <p class="Title">Manage reservations</p>
 
-            <div>
+            <div style="margin: auto;">
                 <form class="form-check-inline">
                     <p>Show</p>
                     <select>

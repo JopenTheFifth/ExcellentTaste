@@ -29,6 +29,7 @@
     .wrapper{
         padding-top: 4rem;
         padding-bottom: 4rem;
+
     }
     .titleBar{
         background-color: #4A4E69;
@@ -37,6 +38,7 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
+        border-radius: 0.5rem 0.5rem 0rem 0px;
     }
     label, .Title{
         font-weight: bold;

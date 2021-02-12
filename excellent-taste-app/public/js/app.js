@@ -1932,6 +1932,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {}
 });
@@ -2052,8 +2062,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
 /* harmony export */ });
-//
-//
 //
 //
 //
@@ -6679,7 +6687,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.wrapper{\n    padding-top: 4rem;\n    padding-bottom: 4rem;\n}\n.titleBar{\n    background-color: #4A4E69;\n    color: white;\n    padding: 1rem;\n    display: flex;\n    flex-flow: row nowrap;\n    justify-content: space-between;\n}\nlabel, .Title{\n    font-weight: bold;\n}\nform{\n    color: #2B2D42;\n    padding: 2rem;\n}\n.Title{\n    text-align: center;\n    line-height: 34.5px;\n}\n.body{\n    background-color: white;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.wrapper{\n    padding-top: 4rem;\n    padding-bottom: 4rem;\n}\n.titleBar{\n    background-color: #4A4E69;\n    color: white;\n    padding: 1rem;\n    display: flex;\n    flex-flow: row nowrap;\n    justify-content: space-between;\n    border-radius: 0.5rem 0.5rem 0rem 0px;\n}\nlabel, .Title{\n    font-weight: bold;\n}\nform{\n    color: #2B2D42;\n    padding: 2rem;\n}\n.Title{\n    text-align: center;\n    line-height: 34.5px;\n}\n.body{\n    background-color: white;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38073,7 +38081,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
 /* harmony export */ });
-/* harmony import */ var _NewReservationComponent_vue_vue_type_template_id_6bb2ead8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NewReservationComponent.vue?vue&type=template&id=6bb2ead8& */ "./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8&");
+/* harmony import */ var _NewReservationComponent_vue_vue_type_template_id_6bb2ead8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NewReservationComponent.vue?vue&type=template&id=6bb2ead8&scoped=true& */ "./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8&scoped=true&");
 /* harmony import */ var _NewReservationComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NewReservationComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/reservations/NewReservationComponent.vue?vue&type=script&lang=js&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -38085,11 +38093,11 @@ __webpack_require__.r(__webpack_exports__);
 ;
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
   _NewReservationComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
-  _NewReservationComponent_vue_vue_type_template_id_6bb2ead8___WEBPACK_IMPORTED_MODULE_0__.render,
-  _NewReservationComponent_vue_vue_type_template_id_6bb2ead8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _NewReservationComponent_vue_vue_type_template_id_6bb2ead8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _NewReservationComponent_vue_vue_type_template_id_6bb2ead8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
-  null,
+  "6bb2ead8",
   null
   
 )
@@ -38194,7 +38202,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
 /* harmony export */ });
-/* harmony import */ var _ReservationOverviewComponent_vue_vue_type_template_id_182e2265___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ReservationOverviewComponent.vue?vue&type=template&id=182e2265& */ "./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265&");
+/* harmony import */ var _ReservationOverviewComponent_vue_vue_type_template_id_182e2265_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ReservationOverviewComponent.vue?vue&type=template&id=182e2265&scoped=true& */ "./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265&scoped=true&");
 /* harmony import */ var _ReservationOverviewComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ReservationOverviewComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=script&lang=js&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -38206,11 +38214,11 @@ __webpack_require__.r(__webpack_exports__);
 ;
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
   _ReservationOverviewComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
-  _ReservationOverviewComponent_vue_vue_type_template_id_182e2265___WEBPACK_IMPORTED_MODULE_0__.render,
-  _ReservationOverviewComponent_vue_vue_type_template_id_182e2265___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _ReservationOverviewComponent_vue_vue_type_template_id_182e2265_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _ReservationOverviewComponent_vue_vue_type_template_id_182e2265_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
-  null,
+  "182e2265",
   null
   
 )
@@ -38345,19 +38353,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8&":
-/*!*********************************************************************************************************!*\
-  !*** ./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8& ***!
-  \*********************************************************************************************************/
+/***/ "./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8&scoped=true&":
+/*!*********************************************************************************************************************!*\
+  !*** ./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8&scoped=true& ***!
+  \*********************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NewReservationComponent_vue_vue_type_template_id_6bb2ead8___WEBPACK_IMPORTED_MODULE_0__.render,
-/* harmony export */   "staticRenderFns": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NewReservationComponent_vue_vue_type_template_id_6bb2ead8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */   "render": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NewReservationComponent_vue_vue_type_template_id_6bb2ead8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NewReservationComponent_vue_vue_type_template_id_6bb2ead8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NewReservationComponent_vue_vue_type_template_id_6bb2ead8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./NewReservationComponent.vue?vue&type=template&id=6bb2ead8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_NewReservationComponent_vue_vue_type_template_id_6bb2ead8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./NewReservationComponent.vue?vue&type=template&id=6bb2ead8&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8&scoped=true&");
 
 
 /***/ }),
@@ -38396,19 +38404,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265& ***!
-  \**************************************************************************************************************/
+/***/ "./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265&scoped=true&":
+/*!**************************************************************************************************************************!*\
+  !*** ./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265&scoped=true& ***!
+  \**************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ReservationOverviewComponent_vue_vue_type_template_id_182e2265___WEBPACK_IMPORTED_MODULE_0__.render,
-/* harmony export */   "staticRenderFns": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ReservationOverviewComponent_vue_vue_type_template_id_182e2265___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
+/* harmony export */   "render": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ReservationOverviewComponent_vue_vue_type_template_id_182e2265_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+/* harmony export */   "staticRenderFns": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ReservationOverviewComponent_vue_vue_type_template_id_182e2265_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ReservationOverviewComponent_vue_vue_type_template_id_182e2265___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ReservationOverviewComponent.vue?vue&type=template&id=182e2265& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ReservationOverviewComponent_vue_vue_type_template_id_182e2265_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ReservationOverviewComponent.vue?vue&type=template&id=182e2265&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265&scoped=true&");
 
 
 /***/ }),
@@ -38438,10 +38446,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8&":
-/*!************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8& ***!
-  \************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8&scoped=true&":
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/NewReservationComponent.vue?vue&type=template&id=6bb2ead8&scoped=true& ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -38512,20 +38520,35 @@ var staticRenderFns = [
                 })
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "form-group" }, [
-                _c("label", { attrs: { for: "from" } }, [_vm._v("From")]),
+              _c("div", { staticClass: "row" }, [
+                _c("div", { staticClass: "form-group col-auto" }, [
+                  _c("label", { attrs: { for: "from" } }, [_vm._v("From")]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: { type: "time", id: "from" }
+                  })
+                ]),
                 _vm._v(" "),
-                _c("input", {
-                  staticClass: "form-control",
-                  attrs: { type: "time", id: "from" }
-                }),
+                _c("div", { staticClass: "form-group col-auto" }, [
+                  _c("label", { attrs: { for: "to" } }, [_vm._v("To")]),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-control",
+                    attrs: { type: "time", id: "to" }
+                  })
+                ]),
                 _vm._v(" "),
-                _c("label", { attrs: { for: "to" } }, [_vm._v("To")]),
-                _vm._v(" "),
-                _c("input", {
-                  staticClass: "form-control",
-                  attrs: { type: "time", id: "to" }
-                })
+                _c("div", { staticClass: "form-group" }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-warning",
+                      attrs: { id: "checkBtn" }
+                    },
+                    [_vm._v("Check")]
+                  )
+                ])
               ]),
               _vm._v(" "),
               _c("div", { staticClass: "form-group" }, [
@@ -38605,11 +38628,11 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "wrapper container" }, [
+    return _c("div", { staticClass: "wrapper" }, [
       _c("div", { staticClass: "titleBar" }, [
         _c("p", { staticClass: "Title" }, [_vm._v("Manage reservations")]),
         _vm._v(" "),
-        _c("div", [
+        _c("div", { staticStyle: { margin: "auto" } }, [
           _c("form", { staticClass: "form-check-inline" }, [
             _c("p", [_vm._v("Show")]),
             _vm._v(" "),
@@ -38685,10 +38708,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265&":
-/*!*****************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reservations/ReservationOverviewComponent.vue?vue&type=template&id=182e2265&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -38701,7 +38724,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "wrapper container" }, [
+  return _c("div", { staticClass: "wrapper" }, [
     _c("div", { staticClass: "titleBar" }, [
       _c("p", { staticClass: "Title" }, [
         _vm._v("\n            Manage reservations\n        ")

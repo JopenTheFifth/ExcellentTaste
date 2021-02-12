@@ -1,5 +1,5 @@
 <template>
- <div class="wrapper container">
+ <div class="wrapper">
      <div class="titleBar">
          <p class="Title">
              Manage reservations
@@ -9,9 +9,7 @@
              <button class="btn btn-danger">Delete</button>
              <button @click="$router.push('/dashboard/reservation/new')" class="btn btn-success">New reservation</button>
 
-
          </div>
-
      </div>
 
      <div class="body">
@@ -45,3 +43,7 @@
     }
 </script>
 
+
+<style scoped>
+
+</style>

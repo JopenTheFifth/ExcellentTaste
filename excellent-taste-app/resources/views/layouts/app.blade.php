@@ -24,24 +24,16 @@
 </head>
 <body>
 
-<div id="app">
+<div id="app" class="container">
+
     <div class="sidebar">
-
-        <div id="userInfoSection">
-            Welcome back {{\Illuminate\Support\Facades\Auth::user()->name}}
-            <img class="mx-auto" src="{{asset('/images/dashboard/profile_pic.jpg')}}">
-            <hr />
-        </div>
-
-        <div id="dashboard-main-links">
-            <router-link class="" to="/dashboard/reservations" exact>Reservations</router-link>
-            <router-link to="/dashboard/orders">Orders</router-link>
-        </div>
-
+        <ul id="dashboard-main-links" class="list-group list-group-horizontal">
+            <li class="list-group-item"><router-link class="" to="/dashboard/reservations" exact>Reservations</router-link></li>
+            <li class="list-group-item"><router-link to="/dashboard/orders">Orders</router-link></li>
+        </ul>
     </div>
 
-
-    <div class="content">
+    <div class="content ">
         @yield('content')
     </div>
 </div>
