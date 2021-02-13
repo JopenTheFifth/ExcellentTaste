@@ -3,15 +3,15 @@
         <div class="titleBar">
             <p class="Title">Manage reservations</p>
 
-            <div style="margin: auto;">
+            <div>
                 <form class="form-check-inline">
-                    <p>Show</p>
+                    <p class="pr-3">Show</p>
                     <select>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
                     </select>
-                    <p>entries</p>
+                    <p class="pl-3">entries</p>
                 </form>
             </div>
         </div>

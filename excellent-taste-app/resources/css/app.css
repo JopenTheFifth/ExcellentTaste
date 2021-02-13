@@ -7,12 +7,16 @@ body, html, #app{
     background-color: #F5F5F5!important;
 }
 
+p{
+    color: white;
+}
+
 *{
     font-family: Verdana, Montserrat;
 }
 
 #app{
- width: 1000px;
+    width: 1000px;
     margin: auto;
 }
 
@@ -64,11 +68,6 @@ body, html, #app{
 }
 
 
-
-
-
-
-
 /*FOR NAVIGATION BAR IN DASHBOARD*/
 .sidebar{
     background-color: blue;
@@ -82,6 +81,16 @@ body, html, #app{
     border: none;
 }
 
+.nav-iconspan{
+    font-size: 32px;
+    display: block;
+}
+.nav-iconspan i{
+    display: flex;
+    justify-content: center;
+}
+
+
 #dashboard-main-links{
-   padding: 2rem !important;
+   padding: 1.3rem !important;
 }

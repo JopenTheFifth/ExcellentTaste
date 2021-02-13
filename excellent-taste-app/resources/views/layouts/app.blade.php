@@ -28,8 +28,20 @@
 
     <div class="sidebar">
         <ul id="dashboard-main-links" class="list-group list-group-horizontal">
-            <li class="list-group-item"><router-link class="" to="/dashboard/reservations" exact>Reservations</router-link></li>
-            <li class="list-group-item"><router-link to="/dashboard/orders">Orders</router-link></li>
+
+            <li class="list-group-item">
+                <span class="nav-iconspan">
+                    <i class="fa fa-book"></i>
+                </span>
+                <router-link class="" to="/dashboard/reservations" exact>Reservations</router-link>
+            </li>
+
+            <li class="list-group-item">
+                <span class="nav-iconspan">
+                <i class="fa fa-beer"></i>
+                </span>
+                <router-link to="/dashboard/orders">Orders</router-link>
+            </li>
         </ul>
     </div>
 

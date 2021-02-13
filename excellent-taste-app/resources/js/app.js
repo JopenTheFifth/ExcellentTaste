@@ -11,7 +11,17 @@ window.Vue = require('vue').default;
 import VueRouter from "vue-router";
 import routes from './routes'
 
+import Vuex from 'vuex';
+Vue.use(Vuex);
+
+
+//import store
+import store from './store'
+
+
+
 Vue.use(VueRouter);
+
 
 
 /**
@@ -36,5 +46,6 @@ Vue.component('reservation-overview-component', require('./components/reservatio
 
 const app = new Vue({
     el: '#app',
-    router: new VueRouter(routes)
+    router: new VueRouter(routes),
+    store, //vuex
 });

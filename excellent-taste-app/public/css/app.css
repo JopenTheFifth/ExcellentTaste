@@ -44205,6 +44205,10 @@ body, html, #app{
   background-color: #F5F5F5!important;
 }
 
+p{
+  color: white;
+}
+
 *{
   font-family: Verdana, Montserrat;
 }
@@ -44271,8 +44275,18 @@ body, html, #app{
   border: none;
 }
 
+.nav-iconspan{
+  font-size: 32px;
+  display: block;
+}
+
+.nav-iconspan i{
+  display: flex;
+  justify-content: center;
+}
+
 #dashboard-main-links{
-  padding: 2rem !important;
+  padding: 1.3rem !important;
 }
 
 @media (min-width: 640px) {

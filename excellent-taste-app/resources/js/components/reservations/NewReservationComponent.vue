@@ -21,8 +21,8 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="name">Table</label>
-                            <input type="text" value="3" readonly id="Table" class="form-control">
+                            <label for="lockedTable">Table</label>
+                            <input type="text" value="3" readonly id="lockedTable" class="form-control">
                         </div>
                     </form>
                 </div>
@@ -45,20 +45,17 @@
                                 <input type="time" class="form-control" id="to">
                             </div>
 
-                            <div class="form-group">
-                                <button id="checkBtn" class="btn btn-warning">Check</button>
-                            </div>
-
                         </div>
 
-                        <div class="form-group">
-                            <label for="name">Table</label>
-                            <input type="text" value="3" readonly id="Table" class="form-control">
+                        <div id="findTableBtnWrapper" class="form-group">
+                            <button type="submit" id="checkBtn" class="form-control btn btn-primary">Find available tables</button>
                         </div>
+
+
+
 
                     </form>
                 </div>
-
             </div>
         </div>
 
@@ -80,6 +77,12 @@
 
 <style scoped>
 
+#checkBtn{
 
+}
+    #findTableBtnWrapper{
+        margin-top: 1.8rem;
+        margin-bottom: 1.7rem;
+    }
 
 </style>

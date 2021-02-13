@@ -22,7 +22,7 @@
 
 </head>
 <body>
-<div id="app">
+<div>
     <nav class="navbar navbar-expand-lg bg-dark">
         <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar4">
             <span class="navbar-toggler-icon"></span>

@@ -40,10 +40,20 @@
 <script>
     export default{
 
+        mounted(){
+          this.$store.dispatch('fetchAllReservations')
+        },
+
+        computed: {
+          getAllReservations(){
+              return this.$store.getters.getAllReservations();
+          }
+        },
+
     }
+
+
+
+
 </script>
 
-
-<style scoped>
-
-</style>
