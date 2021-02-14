@@ -18,10 +18,23 @@
 
 
 <script>
+
+    import {mapGetters, mapActions} from 'vuex';
+
     export default {
-        mounted() {
-            console.log('ReservationController mounted.')
-        }
+        data(){
+
+        },
+        computed: mapGetters([
+
+        ]),
+
+        methods: {
+            //make the store actions available in the vue methods.
+            ...mapActions([
+                'getAllReservations'
+            ]),
+        },
     }
 </script>
 
