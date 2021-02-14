@@ -5,33 +5,39 @@ import axios from "axios";
 
 //variables will be stored in the state
 const state = {
-    reservations: [],
+    reservations: [
+
+    ],
 };
 
 //assign values in getters
 const getters = {
-
+    allReservations: state => state.reservations
 };
 
 //fetching data from the database in actions
 const actions = {
-    getAllReservations({commit}){
+     fetchReservations({commit}){
         axios.get('/api/reservations').then((res) => {
-            commit('setReservations', res.data);
-        });
+
+            //to fire the mutation setReservations, use the commit
+            commit('setReservations' , res.data);
+        })
+    },
+
+    addReservation({commit}) {
+         axios.post('/api/reservation/new')
     }
 };
 
+
 const mutations = {
-    setReservations(state, data) {
-        state.reservations = data;
-    }
+ setReservations: (state, reservations) => (state.reservations = reservations)
 };
 
 
 // to use all these, export them
 export default {
-    namespaced: true,
     state,
     getters,
     actions,

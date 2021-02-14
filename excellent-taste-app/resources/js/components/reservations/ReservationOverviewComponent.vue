@@ -38,20 +38,25 @@
 
 
 <script>
-    export default{
+    import {mapGetters, mapActions} from 'vuex';
+    export default {
 
-        // mounted(){
-        //   this.$store.dispatch('fetchAllReservations')
-        // },
-        //
-        // computed: {
-        //   getAllReservations(){
-        //       return this.$store.getters.getAllReservations();
-        //   }
-        // },
+        //mapGetters are brought into the computed hook
+        computed: mapGetters(['allReservations']),
 
+        //mapActions are brought into the methods hook
+        methods: {
+            //this doesnt call the method fetchReservations just yet, it only
+            //maps the action to this specific component. call it in the created hook.
+            ...mapActions(['fetchReservations']),
+
+            //other methods can now be added down here.
+        },
+
+        created() {
+            this.fetchReservations();
+        }
     }
-
 
 
 

@@ -19,23 +19,13 @@
 
 <script>
 
-    import {mapGetters, mapActions} from 'vuex';
-
-    export default {
-        data(){
-
-        },
-        computed: mapGetters([
-
-        ]),
-
-        methods: {
-            //make the store actions available in the vue methods.
-            ...mapActions([
-                'getAllReservations'
-            ]),
-        },
-    }
+    // import {mapGetters, mapActions} from 'vuex';
+    //
+    // export default {
+    //
+    //
+    //     computed: mapGetters(['allReservations'])
+    // }
 </script>
 
 <style>
